@@ -4,32 +4,37 @@ export default function App() {
   return (
     <>
       <header>
+        <div className={styles.promoSection}>
+          <a href="/#">
+            <span>Landingfolio</span>
+          </a>
+        </div>
         <nav>
-          <div>Landingfolio</div>
+          <div>Logo</div>
           <ul>
             <li>
-              <a> Inspiration</a>
+              <a href="/#">Inspiration</a>
             </li>
             <li>
-              <a> Component Libarary</a>
+              <a href="/#">Component Library</a>
             </li>
             <li>
-              <a> Templates</a>
+              <a href="/#">Templates</a>
             </li>
             <li>
-              <a> Learn</a>
+              <a href="/#">Learn</a>
             </li>
             <li>
-              <a> Tools</a>
+              <a href="/#">Tools</a>
             </li>
             <li>
-              <a> Pricing</a>
+              <a href="/#">Pricing</a>
             </li>
             <li>
-              <a> Support</a>
+              <a href="/#">Inspiration</a>
             </li>
             <li>
-              <a> Login</a>
+              <a href="/#">Inspiration</a>
             </li>
           </ul>
         </nav>
