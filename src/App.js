@@ -6,11 +6,11 @@ export default function App() {
       <header>
         <div className={styles.promoSection}>
           <a href="/#">
+            <span>Logo</span>
             <span>Landingfolio</span>
           </a>
         </div>
-        <nav>
-          <div>Logo</div>
+        <nav className={`${styles.navigationBar} ${styles.container}`}>
           <ul>
             <li>
               <a href="/#">Inspiration</a>
@@ -30,13 +30,11 @@ export default function App() {
             <li>
               <a href="/#">Pricing</a>
             </li>
-            <li>
-              <a href="/#">Inspiration</a>
-            </li>
-            <li>
-              <a href="/#">Inspiration</a>
-            </li>
           </ul>
+          <div>
+            <a href="/#">Support</a>
+            <a href="/#">Login</a>
+          </div>
         </nav>
       </header>
       <main> Main content </main>

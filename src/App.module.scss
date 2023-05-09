@@ -1,4 +1,31 @@
+.container {
+  max-width: 1192px;
+  margin: auto;
+}
+
 .promoSection {
   background-color: #ffff;
   display: flex;
+  align-items: center;
+  justify-content: left;
+  color: black;
+  gap: 32px;
+  padding: 24px;
 }
+
+.navigationBar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgb(251, 250, 248);
+  gap: 24px;
+
+  ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 40px;
+  }
+}
+//20:36 youtube 2tes video//
