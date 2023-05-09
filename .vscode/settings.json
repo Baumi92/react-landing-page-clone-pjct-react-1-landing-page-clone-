@@ -1,4 +1,11 @@
 {
   "css.lint.unknownAtRules": "ignore",
-  "cSpell.words": ["pjct", "stylelint", "upleveled"]
+  "cSpell.words": [
+    "Landingfolio",
+    "Libarary",
+    "pjct",
+    "stylelint",
+    "upleveled",
+    "webfonts"
+  ]
 }
