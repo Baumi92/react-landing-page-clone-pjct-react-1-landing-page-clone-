@@ -1,6 +1,6 @@
 .container {
-  max-width: 1192px;
-  margin: auto;
+  max-width: 1839px;
+  margin: flex;
 }
 
 .promoSection {
@@ -13,19 +13,54 @@
   padding: 24px;
 }
 
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
 .navigationBar {
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: flex-start;
   background-color: rgb(251, 250, 248);
   gap: 24px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  padding: 12px;
+  margin: 16px;
+  gap: 40px;
+  flex: 1;
 
-  ul {
-    list-style: none;
-    display: flex;
-    padding: 0;
-    margin: 0;
-    gap: 40px;
+  li {
+    padding: 32px 0;
+    font-weight: 500;
   }
 }
-//20:36 youtube 2tes video//
+
+.main {
+  margin-top: 70px;
+}
+
+.h1 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-weight: 700;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  .p {
+    text-align: center;
+    line-height: 1.75rem;
+    font-weight: 400;
+    margin: 0;
+    display: block;
+  }
+}

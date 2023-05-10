@@ -37,7 +37,16 @@ export default function App() {
           </div>
         </nav>
       </header>
-      <main> Main content </main>
+      <main>
+        <section>
+          <h1 className={styles.h1}>Turn Yourself Into Your Favorite Memes</h1>
+          <p>
+            MemeMorph is the world's most advanced face-morphing app. You can
+            turn yourself into your favorite memes by uploading a few selfies to
+            our platform and then let our AI do the rest of the work!
+          </p>
+        </section>
+      </main>
       <footer>My Footer</footer>
     </>
   );
