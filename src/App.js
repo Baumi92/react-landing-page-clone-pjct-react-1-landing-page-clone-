@@ -80,13 +80,78 @@ export default function App() {
       </main>
       <footer>
         <div>
-          <span>Landingfolio</span>
-          <p>
-            Landingfolio features the best Landing Page designs on the web. Get
-            inspiration from real Landing Page examples, curated by us to ensure
-            the highest quality.
-          </p>
-          <button> Chat with us</button>
+          <section>
+            <span>Landingfolio</span>
+            <p>
+              Landingfolio features the best Landing Page designs on the web.
+              Get inspiration from real Landing Page examples, curated by us to
+              ensure the highest quality.
+            </p>
+
+            <div>
+              <p>Links</p>
+              <ul>
+                <li>
+                  <a href="/#">Inspiration</a>
+                </li>
+                <li>
+                  <a href="/#">Component Library</a>
+                </li>
+                <li>
+                  <a href="/#">Templates</a>
+                </li>
+                <li>
+                  <a href="/#">Learn</a>
+                </li>
+                <li>
+                  <a href="/#">Tools</a>
+                </li>
+                <li>
+                  <a href="/#">Pricing</a>
+                </li>
+                <li>
+                  <a href="/#">Submit a design</a>
+                </li>
+              </ul>
+              <div>
+                <p>Legal</p>
+                <ul>
+                  <li>
+                    <a href="/#"> Cookie Policy</a>
+                  </li>
+                  <li>
+                    <a href="/#">Licensing Agreement</a>
+                  </li>
+                  <li>
+                    <a href="/#">Partner Terms</a>
+                  </li>
+                  <li>
+                    <a href="/#">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a href="/#">Terms & Conditions</a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <p>Products</p>
+                <ul>
+                  <li>
+                    <a href="/#">Free Logos</a>
+                  </li>
+                  <li>
+                    <a href="/#">Mockup Generator</a>
+                  </li>
+                  <li>
+                    <a href="/#">Figma Component Library</a>
+                  </li>
+                  <li>
+                    <a href="/#">Webflows Cloneables</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
         </div>
       </footer>
     </>
