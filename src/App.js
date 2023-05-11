@@ -6,15 +6,17 @@ export default function App() {
       <header>
         <div>
           <nav
-            className={`${styles.navigationBar} ${styles.container} ${styles.promoSection}`}
+            className={`${styles.navigationBar}  ${styles.promoSection} ${styles.container} `}
           >
-            <span>
-              <a href="/#">
-                <span>Logo</span>
-                <span>Landingfolio</span>
-              </a>
-            </span>
-            <ul>
+            <div>
+              <span>
+                <a href="/#">
+                  <span>Logo</span>
+                  <span>Landingfolio</span>
+                </a>
+              </span>
+            </div>
+            <ul className={styles.container}>
               <li>
                 <a href="/#">Inspiration</a>
               </li>
@@ -35,32 +37,35 @@ export default function App() {
               </li>
             </ul>
             <div>
-              <a href="/#">Support</a>
-              <a href="/#">Login</a>
+              <button className={styles.button}>Support</button>
+              <button className={styles.button1}>Login</button>
             </div>
           </nav>
         </div>
       </header>
-      <main className={`${styles.container} ${styles.main}`}>
+      <main className={` ${styles.main}`}>
         <div>
           <section>
             <h1 className={styles.h1}>
               Turn Yourself Into Your Favorite Memes
             </h1>
-            <p className={styles.p}>
-              MemeMorph is the world's most advanced face-morphing app. You can
-              turn yourself into your favorite memes by uploading a few selfies
-              to our platform and then let our AI do the rest of the work!
-            </p>
+            <div>
+              <p className={styles.p}>
+                MemeMorph is the world's most advanced face-morphing app. You
+                can turn yourself into your favorite memes by uploading a few
+                selfies to our platform and then let our AI do the rest of the
+                work!
+              </p>
+            </div>
             <span className={styles.p}>Product</span>
           </section>
 
-          <section className={styles.secondSection}>
-            <button>Device Desktop</button>
+          <section className={`${styles.promoSection} ${styles.h1}`}>
+            <button className={styles.button2}>Device Desktop</button>
 
-            <button>Visit Site</button>
+            <button className={styles.button3}>Visit Site</button>
           </section>
-          <section>
+          <section className={styles.h4}>
             <div>
               <h4>Extensive component library for Tailwind, Webflow & Figma</h4>
               <p>
@@ -79,7 +84,7 @@ export default function App() {
         </div>
       </main>
       <footer>
-        <div>
+        <div className={styles.grid}>
           <section>
             <span>Landingfolio</span>
             <p>
