@@ -74,7 +74,7 @@ export default function App() {
             <img
               src="https://landingfoliocom.imgix.net/inspiration/1677451730987Turn20Yourself20Into20Your20Favorite20Memesdesktop0710f14043fd4c1591234d10c1d8ca74png?&q=75&auto=format&w=750"
               alt=""
-            ></img>
+            />
           </section>
         </div>
       </main>
