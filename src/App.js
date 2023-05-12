@@ -57,7 +57,9 @@ export default function App() {
                 work!
               </p>
             </div>
-            <span className={styles.p}>Product</span>
+            <a href="/#">
+              <span className={styles.p}>Product</span>
+            </a>
           </section>
 
           <section className={`${styles.promoSection} ${styles.h1}`}>
